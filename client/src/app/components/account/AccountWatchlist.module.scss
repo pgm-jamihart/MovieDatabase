@@ -1,0 +1,51 @@
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.watchlist { 
+    display: flex;
+    overflow-x: scroll;
+    margin-bottom: 3rem;
+
+    li {
+        margin-right: 1rem;
+        margin-bottom: 1rem;
+
+        img {
+            width: 10rem;
+        }
+
+        span {
+            display: block;
+        }
+    }
+
+    &::-webkit-scrollbar-track {
+        box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+        -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+        border-radius: 10px;
+        background-color: #23272F;
+    }
+
+    &::-webkit-scrollbar {
+        width: 12px;
+        background-color: #23272F;
+        border-radius: 10px;
+    }
+
+    &::-webkit-scrollbar-thumb {
+        border-radius: 10px;
+        box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+        -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+        background-color: #7F8899;
+    }
+
+}
+

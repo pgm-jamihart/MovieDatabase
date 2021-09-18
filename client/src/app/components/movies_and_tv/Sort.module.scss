@@ -1,0 +1,24 @@
+.filter {
+
+    h2 {
+        margin: 0;
+        margin-bottom: 19px;
+    }
+
+    select {
+        width: 100%;
+        font-size: 1.2rem;
+        font-weight: bold;
+        background-color: #23272F;
+        color: white;
+        padding: 0.5rem;
+        border: 1px solid #4DEEEA;
+        border-radius: 0.1875rem;
+        cursor: pointer;
+        transition: all 0.2s ease;
+
+        option {
+            cursor: pointer;
+        }
+    }
+}

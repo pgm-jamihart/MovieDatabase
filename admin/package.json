@@ -1,0 +1,35 @@
+{
+  "name": "admin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "seeder:movies": "babel-node movies-seeder.js --debug --presets airbnb",
+    "seeder:tv": "babel-node tv-seeder.js --debug --presets airbnb",
+    "seeder:watchlist": "babel-node profiles-watchlist-seeder.js --debug --presets airbnb",
+    "seeder:movie-reviews": "babel-node movie-reviews-seeder.js --debug --presets airbnb",
+    "seeder:tv-reviews": "babel-node tv-reviews-seeder.js --debug --presets airbnb",
+    "seeder:movie-comments": "babel-node movie-comments-seeder.js --debug --presets airbnb",
+    "seeder:tv-comments": "babel-node tv-comments-seeder.js --debug --presets airbnb",
+    "seeder:users": "babel-node users-seeder.js --debug --presets airbnb",
+    "seeder:profiles": "babel-node profiles-seeder.js --debug --presets airbnb",
+    "delete:movies": "babel-node collection-delete.js movies 50 --debug --presets airbnb",
+    "delete:users": "babel-node users-delete.js --debug --presets airbnb"
+  },
+  "author": "Jamie-Lee Hart",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.14.3",
+    "@babel/node": "^7.14.2",
+    "@babel/runtime": "^7.14.0",
+    "babel-preset-airbnb": "^5.0.0"
+  },
+  "dependencies": {
+    "faker": "^5.5.3",
+    "firebase": "^8.6.3",
+    "firebase-admin": "^9.9.0",
+    "node-fetch": "^2.6.1",
+    "uuid": "^8.3.2"
+  }
+}

@@ -1,0 +1,16 @@
+.nav {
+    display: flex;
+    align-items: center;
+
+    h1 {
+        margin-right: 2rem;
+    }
+
+    a {
+        color: white;
+        text-decoration: none;
+        background-color: gray;
+        padding: 0.3rem 0.5rem;
+        border-radius: 0.3rem;
+    }
+}

@@ -1,0 +1,27 @@
+header {
+    min-height: 4rem;
+    background-color: #858d9eb0;
+    backdrop-filter: blur(6px);
+    z-index: 100;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 1rem;
+    position: relative;
+
+    .profile {
+        width: 3rem;
+        height: 3rem;
+        border-radius: 50%;
+        border: 1px solid #4DEEEA;
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        img {
+            width: 100%;
+        }
+    }
+
+}

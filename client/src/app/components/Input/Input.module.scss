@@ -1,0 +1,25 @@
+.primary {
+    margin-bottom: 1rem;
+    background-color: #707070;
+    border: 1px solid #0D0F14;
+    color: white;
+    font-size: 1rem;
+    padding: 0.5rem;
+
+    &::placeholder {
+        color: #d6d6d6;
+    }
+}
+
+.secondary {
+    border: none;
+    border-radius: 0.3rem;
+    background-color: #38425c;
+    border: 1px solid #8392b8;
+    color: white;
+    padding: 0.3rem;
+
+    &::placeholder {
+        color: #d6d6d6;
+    }
+}
